@@ -1,0 +1,72 @@
+/**
+* FONTS
+*/
+@font-face {
+    font-family: "Courgette";
+    src: url('../font/Courgette-Regular.ttf') format('truetype');
+    src: url('../font/Courgette-Regular.svg') format('svg'),
+        url('../font/Courgette-Regular.woff') format('woff'),
+        url('../font/Courgette-Regular.eot') format('eot'),
+        url('../font/Courgette-Regular.eot?#iefix') format('embedded opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oswald-ExtraLight";
+    src: url('../font/Oswald-ExtraLight.ttf') format('truetype');
+    src: url('../font/Oswald-ExtraLight.svg') format('svg'),
+        url('../font/Oswald-ExtraLight.woff') format('woff'),
+        url('../font/Oswald-ExtraLight.eot') format('eot'),
+        url('../font/Oswald-ExtraLight.eot?#iefix') format('embedded opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/**
+* GENERAL
+*/
+h1, h2, h3, h4, .article a {
+    font-family: Courgette;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 1em;
+}
+
+p, a, .btn, input {
+    font-family: Oswald-ExtraLight;
+}
+
+input {
+    font-weight: bold !important;
+}
+
+.btn {
+    border: 1px black solid;
+    font-weight: bold;
+}
+
+/**
+* HEADER
+*/
+header {
+    color: white;
+    background-image: url(../img/articles/suzette/suzette-header.jpg);
+    background-position: center;
+    height: 500px;
+}
+
+.header-back div {
+    background-color: black;
+    height: 500px;
+    opacity: 0.7;
+}
+
+.header-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}

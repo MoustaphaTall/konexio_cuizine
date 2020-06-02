@@ -13,14 +13,39 @@
 }
 
 @font-face {
-    font-family: "Oswald";
-    src: url('../font/Oswald-Regular.ttf') format('truetype');
-    src: url('../font/Oswald-Regular.svg') format('svg'),
-        url('../font/Oswald-Regular.woff') format('woff'),
-        url('../font/Oswald-Regular.eot') format('eot'),
-        url('../font/Oswald-Regular.eot?#iefix') format('embedded opentype');
+    font-family: "Oswald-ExtraLight";
+    src: url('../font/Oswald-ExtraLight.ttf') format('truetype');
+    src: url('../font/Oswald-ExtraLight.svg') format('svg'),
+        url('../font/Oswald-ExtraLight.woff') format('woff'),
+        url('../font/Oswald-ExtraLight.eot') format('eot'),
+        url('../font/Oswald-ExtraLight.eot?#iefix') format('embedded opentype');
     font-style: normal;
     font-weight: normal;
+}
+
+/**
+* GENERAL
+*/
+h1, h2, h3, h4, .article a {
+    font-family: Courgette;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 1em;
+}
+
+p, a, .btn, input {
+    font-family: Oswald-ExtraLight;
+}
+
+input {
+    font-weight: bold !important;
+}
+
+.btn {
+    border: 1px black solid;
+    font-weight: bold;
 }
 
 /**
@@ -29,37 +54,60 @@
 header {
     color: white;
     background-image: url(../img/header.jpg);
+    background-position: center;
+    height: 500px;
+}
+
+.header-back div {
+    background-color: black;
+    height: 500px;
+    opacity: 0.7;
+}
+
+.header-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .banner {
     display: flex;
     justify-content: center;
-    margin-top: -10px;
-    padding-bottom: 70px;
+    padding: 130px;
+}
+
+.banner-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    height: 70px;
+    margin-bottom: 10px;
 }
 
 .navbar {
     border-bottom: 1px gray solid;
+    opacity: 1;
 }
 
 /**
-* MAIN HOME
+* MAIN
 */
 .main-title h2 {
     margin: 30px auto;
 }
 
-.main-home {
-    align-items: baseline;
-}
-.main-home img {
-    height: 120px;
-    margin-right: 25px;
+.main-foot {
+    margin-bottom: 40px;
 }
 
-li {
-    display: flex;
-    justify-content: between;
+.article a:link, .article a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 /**
@@ -69,18 +117,45 @@ input {
     border-radius: 5px;
 }
 
-.share-buttons h4 {
-    font-style: italic;
-    font-size: 0.8em;
-    font-weight: normal;
+.share-search i {
+    margin-right: 10px;
 }
 
 /**
 * FOOTER
 */
 footer {
-    display: flex;
-    justify-content: space-evenly;
+    background-color: black;
     color: white;
-    padding: 40px;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+footer .row {
+    padding: 40px 0;
+}
+
+footer .share-buttons {
+    margin-top: 30px;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer i {
+    border: 1px white solid;
+    border-radius: 2px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+}
+
+footer .btn {
+    color: white;
+    border: 1px white solid;
 }

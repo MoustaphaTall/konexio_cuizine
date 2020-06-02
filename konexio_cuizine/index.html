@@ -4,121 +4,151 @@
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
         <link rel="stylesheet" href="./css/homepage.css" />
+        <link rel="stylesheet" href="./css/all.min.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cui'zine, le mag cuisine</title>
     </head>
 
     <body>
-        <header>
-            <nav class="navbar navbar-expand navbar-dark justify-content-between">
-                <a class="navbar-brand" href="index.html">Cui'zine</a>
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="./index.html">Accueil</a>
-                    <a class="nav-item nav-link" href="./team.html">Equipe</a>
-                    <a class="nav-item nav-link" href="./#.html">Blog</a>
-                    <a class="nav-item nav-link" href="./Contact.html">Contact</a>
-                </div>
-            </nav> <!-- navbar-->
+            <div class="header-back">
+                <div></div>
+            </div>
+            <header>
+                <nav class="navbar navbar-expand navbar-dark justify-content-between">
+                    <a class="navbar-brand" href="index.html">Cui'zine</a>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="./index.html">Accueil</a>
+                        <a class="nav-item nav-link" href="./team.html">Equipe</a>
+                        <a class="nav-item nav-link" href="./#.html">Blog</a>
+                        <a class="nav-item nav-link" href="./Contact.html">Contact</a>
+                    </div>
+                </nav> <!-- navbar-->
 
-            <div class="banner justify-content-center">
-                <div>
-                    <img class="back-img" src="./img/logo_square_white.png" alt="logo de Cui'zine" />
-                    <h1>Cui'zine</h1>
-                    <h2>Le mag cuisine</h2>
-                </div>
-            </div> <!-- /.banner-->
-        </header>
+                <div class="banner">
+                    <div class="banner-contents">
+                        <img class="logo" src="./img/logo_square_white.png" alt="logo de Cui'zine" />
+                        <h1>Cui'zine</h1>
+                        <h2>Le mag cuisine</h2>
+                    </div>
+                </div> <!-- /.banner-->
+            </header>
+        
 
         <main class="container">
             <div class="row main-title justify-content-center">
                 <h2>Derniers articles</h2>
             </div>
-            <div class="row main-home">
-                <div class="col-9 articles-title">
-                    <ul>
-                        <li>
-                            <p><img src="img/articles/suzette/suzette-small.jpg" /></p>
-                            <div>
-                                <h3>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                                <p>La franchise "chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin!
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p><img src="img/articles/metro/metro-small.jpg" /></p>
-                            <div>
-                                <h3>Le Métro dessert</h3>
-                                <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspirée du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis   
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <p><img src="img/articles/vitaly/vitaly-small.jpg" /></p>
-                            <div>
-                                <h3>Vitaly, le végan italien</h3>
-                                <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois,  c'est moi Tony qui vais le tester pour vous.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#">« Voir les articles précédents</a>
-                        </li>
-                    </ul>
-                </div> <!-- /.articles-title-->
 
-                <aside class="col-2 share-search">
-                    <form>
-                        <div class="form-group">
-                            <label for="search-bar">Recherche</label>
-                            <input type="search" id="search-bar" class="form-control form-control-sm" placeholder="Recherche..." />
+            <div class="row articles-summaries">
+                <div class="col-12 col-lg-9">
+                    <div class="row article">
+                        <div class="col-12 col-md-3 article-thumbnail">
+                            <p><img class="img-fluid" src="img/articles/suzette/suzette-small.jpg" alt="crêpe" /></p>
                         </div>
-                        <button type="submit" class="btn btn-light btn-block btn-sm">Ok</button>
-                        <div class="form-group">
-                            <label for="newsletter-mail">Newsletter</label>
-                            <input type="email" id="newsletter-mail" class="form-control form-control-sm" placeholder="Email...">
+                        <div class="col-12 col-md-9 article-summary"> 
+                            <h3><a href="./post/suzette.html">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3></a>
+                            <p>La franchise "chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin!
+                            </p>
                         </div>
-                        <button type="submit" class="btn btn-light btn-block btn-sm">S'inscrire</button>
-                    </form>
-                    <div class="share-buttons">
-                        <h4>Partager</h4>
-                        <a href="#"></a>
                     </div>
-                </aside> <!-- /.share-search-->
-            </div> <!-- /.main-home-->
+
+                    <div class="row article">
+                        <div class="col-12 col-md-3 article-thumbnail">
+                            <p><img class="img-fluid" src="img/articles/metro/metro-small.jpg" alt="dessert" /></p>
+                        </div>
+                        <div class="col-12 col-md-9 article-summary"> 
+                            <h3>Le Métro dessert</h3>
+                            <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspirée du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis   
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row article">
+                        <div class="col-12 col-md-3 article-thumbnail">
+                            <p><img class="img-fluid" src="img/articles/vitaly/vitaly-small.jpg" alt="salade végane" /></p>
+                        </div>
+                        <div class="col-12 col-md-9 article-summary"> 
+                            <h3>Vitaly, le végan italien</h3>
+                            <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. Cette fois,  c'est moi Tony qui vais le tester pour vous.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 share-search d-none d-lg-block">
+                    <aside>
+                        <form>
+                            <div class="form-group">
+                                <h4><label for="search-bar">Recherche</label></h4>
+                                <input type="search" id="search-bar" class="form-control form-control-md" placeholder="Recherche..." />
+                                <button type="submit" class="btn btn-block btn-md">Ok</button>
+                            </div>
+                            <div class="form-group">
+                                <h4><label for="newsletter-mail">Newsletter</label></h4>
+                                <input type="email" id="newsletter-mail" class="form-control form-control-md" placeholder="Email...">
+                                <button type="submit" class="btn btn-block btn-md">S'inscrire</button>
+                            </div>
+                        </form>
+                        <div class="share-buttons">
+                            <h4>Partager</h4>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-twitter"></i>
+                            
+                        </div>
+                    </aside> 
+                </div> <!-- /.share-search-->
+            </div> <!-- /.articles-summaries-->
+            
+            <div class="row main-foot">
+                <div class="col-4">
+                    <a href="#">« Voir les articles précédents</a>
+                </div>
+            </div>
         </main>
 
-        <footer class="bg-dark">
-            <div>
-                <h3>Catégories</h3>
-                <ul>
-                    <li><a href="#">Revues</a></li>
-                    <li><a href="#">Recettes</a></li>
-                    <li><a href="#">Découvertes</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Archives</h3>
-                <ul>
-                    <li><a href="#">2019</a></li>
-                    <li><a href="#">2018</a></li>
-                    <li><a href="#">2017</a></li>
-                </ul>
-            </div>
-            <div>
-                <div class="form-group">
-                    <label for="newsletter-mail">Newsletter</label>
-                    <input type="email" id="newsletter-mail" class="form-control form-control-sm" placeholder="Email...">
-                </div>
-                <button type="submit" class="btn btn-light btn-block btn-sm">S'inscrire</button>
-            </form>
-            <div class="share-buttons">
-                <h4>Partager</h4>
-                <a href="#"></a>
-            </div>
-            </div>
-            <div>
+        
+        <footer>
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-4">
+                        <h3>Catégories</h3>
+                        <ul>
+                            <li><a href="#">Revues</a></li>
+                            <li><a href="#">Recettes</a></li>
+                            <li><a href="#">Découvertes</a></li>
+                        </ul>
+                    </div>
 
-            </div>
+                    <div class="col-12 col-lg-4">
+                        <h3>Archives</h3>
+                        <ul>
+                            <li><a href="#">2019</a></li>
+                            <li><a href="#">2018</a></li>
+                            <li><a href="#">2017</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <form>
+                            <div class="form-group">
+                                <h4><label for="newsletter-mail">Newsletter</label></h4>
+                                <div class="d-flex align-items-baseline">
+                                    <input type="email" id="newsletter-mail" class="form-control form-control-md" placeholder="Email...">
+                                    <button type="submit" class="btn btn-md">S'inscrire</button>
+                                </div>
+                            </div>
+                        </form>                                                
+                        <div class="share-buttons">
+                            <h4>Partager</h4>                            
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                <div>
+            </div>  
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
