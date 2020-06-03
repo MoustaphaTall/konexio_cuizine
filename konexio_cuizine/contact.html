@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/homepage.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
-    <title>Cui'zine, le mag cuisine</title>
+    <title>Contact - Cui'zine, le mag cuisine</title>
 </head>
 
 <body>
@@ -19,18 +19,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-nav collapse navbar-collapse justify-content-end" id="main-navbar">
-                <a class="nav-item nav-link active" href="./index.html">Accueil</a>
+                <a class="nav-item nav-link" href="./index.html">Accueil</a>
                 <a class="nav-item nav-link" href="./team.html">Equipe</a>
                 <a class="nav-item nav-link" href="./#.html">Blog</a>
-                <a class="nav-item nav-link" href="./Contact.html">Contact</a>
+                <a class="nav-item nav-link active" href="./Contact.html">Contact</a>
             </div>
         </nav> <!-- navbar-->
 
         <div class="banner">
             <div class="banner-contents">
                 <img class="logo" src="./img/logo_square_white.png" alt="logo de Cui'zine" />
-                <h1>Cui'zine</h1>
-                <h2>Le mag cuisine</h2>
+                <h1>Nous contacter</h1>
             </div>
         </div> <!-- /.banner-->
 
@@ -38,56 +37,39 @@
         </div>
     </header>
 
-
     <main class="container">
-        <div class="row main-title justify-content-center">
-            <h2>Derniers articles</h2>
-        </div>
-
-        <div class="row articles-summaries">
-            <div class="col-12 col-lg-9">
-                <div class="row article">
-                    <div class="col-12 col-md-3 article-thumbnail">
-                        <p><img class="img-fluid" src="img/articles/suzette/suzette-small.jpg" alt="crêpe" /></p>
-                    </div>
-                    <div class="col-12 col-md-9 article-summary">
-                        <h3><a href="./post/suzette.html">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h3>
-                        </a>
-                        <p>La franchise "chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant
-                            à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés,
-                            salés au froment ou au sarrazin!
-                        </p>
+        <div class="row contact-main">
+            <div class="col-12 col-lg-10">
+                <div class="row">
+                    <div class="col-3">
+                        <h2>Contact</h2>
                     </div>
                 </div>
 
-                <div class="row article">
-                    <div class="col-12 col-md-3 article-thumbnail">
-                        <p><img class="img-fluid" src="img/articles/metro/metro-small.jpg" alt="dessert" /></p>
-                    </div>
-                    <div class="col-12 col-md-9 article-summary">
-                        <h3>Le Métro dessert</h3>
-                        <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé
-                            de réunir leur deux passions dans un restaurant à la déco inspirée du métro parisien. A voir
-                            absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne
-                            son avis
-                        </p>
+                <div class="row address">
+                    <div class="col-12 offset-md-1">
+                        <h2>Adresse</h2>
+                        <ul>
+                            <li>Station F</li>
+                            <li>5 Parvis Alan Turing</li>
+                            <li>75013 Paris</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="row article">
-                    <div class="col-12 col-md-3 article-thumbnail">
-                        <p><img class="img-fluid" src="img/articles/vitaly/vitaly-small.jpg" alt="salade végane" /></p>
-                    </div>
-                    <div class="col-12 col-md-9 article-summary">
-                        <h3>Vitaly, le végan italien</h3>
-                        <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
-                            l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.
-                        </p>
+                <div class="row map">
+                    <div class="col-12">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=5%20parvis%20alan%20turing&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                                </iframe></div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <aside class="col-3 share-search d-none d-lg-block">
+            <aside class="col-2 share-search d-none d-lg-block">
                 <form>
                     <div class="form-group">
                         <h4><label for="search-bar">Recherche</label></h4>
@@ -110,16 +92,9 @@
                     <i class="fab fa-twitter"></i>
 
                 </div>
-            </aside> <!-- /.share-search-->
-        </div> <!-- /.articles-summaries-->
-
-        <div class="row main-foot">
-            <div class="col-4">
-                <a href="#">« Voir les articles précédents</a>
-            </div>
+            </aside>
         </div>
     </main>
-
 
     <footer>
         <div class="container">
