@@ -1,0 +1,19 @@
+/**
+* HEADER
+*/
+header {
+    background-image: url(../img/team/team.jpg);
+}
+
+/**
+* MAIN-MEMBER
+*/
+article img {
+    height: 300px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+}

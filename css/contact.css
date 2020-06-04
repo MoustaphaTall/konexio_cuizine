@@ -1,0 +1,31 @@
+/**
+* MAP
+*/
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+}
+
+/**
+* MAIN
+*/
+.contact-main {
+    margin-bottom: 50px;
+}
+
+.contact-main ul {
+    list-style: none;
+    padding: 0;
+}
