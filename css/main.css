@@ -24,6 +24,16 @@
 }
 
 /**
+*   MEDIA QUERIES
+576px = md */
+@media (min-width: 576px) and (max-width: 992px) {
+    .footer-mail {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/**
 * GENERAL
 */
 h1, h2, h3, h4, .article a, .navbar-brand {
@@ -34,7 +44,7 @@ h4 {
     font-size: 1em;
 }
 
-p, a, .btn, input, figcaption {
+p, a, .btn, input, figcaption, span {
     font-family: Oswald-ExtraLight, sans-serif;
 }
 

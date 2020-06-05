@@ -1,17 +1,80 @@
+/**
+* HEADER
+*/
 header {
     background-image: url(../img/recipes/paella/paella-header.jpg);
 }
 
 /**
+*   MEDIA QUERIES
+
+992px = LG */
+@media (max-width: 992px) {
+    .recipe-ingredients div .col-fluid {
+        margin-right: 5px;
+    }
+}
+
+/**
 * MAIN-RECIPE
-*/
+
+    * INTRO
+    */
 .recipe-intro div i {
     margin-right: 5px;
 }
 
-.recipe-watch p {
+.recipe-time p {
     background-color: gray;
     padding: 10px;
     margin-top: -10px;
     text-align: center;
+}
+
+    /**
+    * INGREDIENTS
+    */
+.recipe-ingredients {
+    margin-bottom: 20px;
+}
+.recipe-ingredients span {
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.recipe-ingredients .row [class*=col] {
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+    /**
+    * RECIPE-ALGORITHM
+    */
+.recipe-algorithm h3 {
+    font-size: 1.3em;
+}
+
+    /**
+    * ILLUSTRATIONS
+    */
+.recipe-illustrations {
+    margin-bottom: 40px;
+}
+
+.recipe-illustrations figure {
+    position: relative;
+}
+
+.recipe-illustrations img {
+    z-index: 1;
+}
+
+.recipe-illustrations div figure figcaption {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    background-color: gray;
+    padding: 0 5px;
 }
