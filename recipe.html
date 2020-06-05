@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/recipe.css" />
     <link rel="stylesheet" href="./css/all.min.css" />
-    <title>Contact - Cui'zine, le mag cuisine</title>
+    <title>Chez Suzette, la nouvelle crêperie qui fait parler d'elle - Cui'zine</title>
 </head>
 
 <body>
@@ -21,85 +21,47 @@
             <div class="navbar-nav collapse navbar-collapse justify-content-end" id="main-navbar">
                 <a class="nav-item nav-link" href="./index.html">Accueil</a>
                 <a class="nav-item nav-link" href="./team.html">Equipe</a>
-                <a class="nav-item nav-link" href="./#.html">Blog</a>
-                <a class="nav-item nav-link active" href="./Contact.html">Contact</a>
+                <a class="nav-item nav-link active" href="./#.html">Blog</a>
+                <a class="nav-item nav-link" href="./Contact.html">Contact</a>
             </div>
-        </nav> <!-- navbar-->
+        </nav> <!-- /.navbar-->
 
         <div class="banner">
             <div class="banner-contents">
-                <img class="logo" src="./img/logo_square_white.png" alt="logo de Cui'zine" />
-                <h1>Nous contacter</h1>
+                <h1>Paëlla</h1>
+                <h2>Le plat familial de votre été 2019</h2>
             </div>
         </div> <!-- /.banner-->
-
         <div class="header-back">
         </div>
     </header>
 
     <main class="container">
-        <div class="row contact-main">
+        <div class="row main-recipe">
             <div class="col-12 col-lg-10">
-                <div class="row">
+                <div class="row recipe-intro justify-content-between">
                     <div class="col-3">
-                        <h2>Contact</h2>
+                        <h2>Paëlla</h2>
                     </div>
-                </div>
 
-                <div class="row address">
-                    <div class="col-12 offset-md-1">
-                        <h2>Adresse</h2>
-                        <ul>
-                            <li>Station F</li>
-                            <li>5 Parvis Alan Turing</li>
-                            <li>75013 Paris</li>
-                        </ul>
+                    <div class="col-3 recipe-watch">
+                        <p><i class="fas fa-stopwatch"></i>Préparation - 2 h</p>
+                        <p><i class="far fa-hourglass"></i>Cuisson - 1 h</p>
                     </div>
-                </div>
+                </div> <!-- /.recipe-intro-->
 
-                <div class="row map">
-                    <div class="col-12">
-                        <div class="mapouter">
-                            <div class="gmap_canvas"><iframe id="gmap_canvas"
-                                    src="https://maps.google.com/maps?q=5%20parvis%20alan%20turing&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                                </iframe></div>
-                        </div>
+                <div class="row recipe-content">
+                    <div class="col-3 recipe-ingredients">
                     </div>
                 </div>
             </div>
-
-            <aside class="col-2 share-search d-none d-lg-block">
-                <form>
-                    <div class="form-group">
-                        <h4><label for="search-bar">Recherche</label></h4>
-                        <input type="search" id="search-bar" class="form-control form-control-md"
-                            placeholder="Recherche..." />
-                        <button type="submit" class="btn btn-block btn-md">Ok</button>
-                    </div>
-                    <div class="form-group">
-                        <h4><label for="newsletter-mail">Newsletter</label></h4>
-                        <input type="email" id="newsletter-mail" class="form-control form-control-md"
-                            placeholder="Email...">
-                        <button type="submit" class="btn btn-block btn-md">S'inscrire</button>
-                    </div>
-                </form>
-                <div class="share-buttons">
-                    <h4>Partager</h4>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-youtube"></i>
-                    <i class="fab fa-twitter"></i>
-
-                </div>
-            </aside>
         </div>
     </main>
 
     <footer>
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-sm-4">
                     <h3>Catégories</h3>
                     <ul>
                         <li><a href="#">Revues</a></li>
@@ -108,7 +70,7 @@
                     </ul>
                 </div>
 
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-sm-4">
                     <h3>Archives</h3>
                     <ul>
                         <li><a href="#">2019</a></li>
@@ -116,13 +78,13 @@
                         <li><a href="#">2017</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-lg-4">
+                <div class="col-6 col-sm-4">
                     <form>
                         <div class="form-group">
                             <h4><label for="newsletter-mail">Newsletter</label></h4>
                             <div class="d-flex align-items-baseline">
                                 <input type="email" id="newsletter-mail" class="form-control form-control-md"
-                                    placeholder="Email...">
+                                    placeholder="Email..." />
                                 <button type="submit" class="btn btn-md">S'inscrire</button>
                             </div>
                         </div>
@@ -147,5 +109,3 @@
         crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"></script>
 </body>
-
-</html>

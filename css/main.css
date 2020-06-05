@@ -31,7 +31,6 @@ h1, h2, h3, h4, .article a, .navbar-brand {
 }
 
 h4 {
-    font-style: italic;
     font-size: 1em;
 }
 
@@ -48,7 +47,6 @@ input {
     font-weight: bold;
 }
 
-
 /**
 * HEADER
 */
@@ -56,6 +54,7 @@ header {
     position: relative;
     color: white;
     background-image: url(../img/header.jpg);
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     margin-bottom: 30px;
@@ -93,7 +92,6 @@ header {
 .navbar {
     position: relative;
     border-bottom: 1px gray solid;
-    opacity: 1;
     z-index: 1;
 }
 
